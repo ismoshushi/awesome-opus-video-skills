@@ -8,7 +8,7 @@ A curated index of **open-source, installable Agent skills that make videos by w
 
 This repo only **links** to open-source projects — no third-party source code is re-hosted. Every entry lists: what it does, render stack, install command, license, and whether it was built specifically for Opus 5.5.
 
-## ⚡ Quick overview — all 39 skills
+## ⚡ Quick overview — all 40 skills
 
 Categories: **①** Code-to-video · **②** Product videos & footage editing · **③** Watch videos / video-to-skill · **④** External video-model callers
 
@@ -37,6 +37,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | ① | [axtonliu/video-illustrator](https://github.com/axtonliu/video-illustrator) | Your narration + real assets + any look → a short film | MIT | ✅ |
 | ① | [adunext/adu-motion-video](https://github.com/adunext/adu-motion-video) | Editable HTML/JS scenes + talking-head layouts, verified local MP4 export | MIT | — |
 | ① | [Wzdhehe/html2video-for-mcode](https://github.com/Wzdhehe/html2video-for-mcode) | Topic/script → narrated MP4: HTML slides + TTS + ASR verification | MIT | — |
+| ① | [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) | Local video studio for coding agents: one sentence → motion graphics, voice-over, music & captions, rendered on your machine | MIT | — |
 | ② | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents: cuts, captions, color, overlaid animation | MIT | — |
 | ② | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) | Motion-design fundamentals (timing/type/color/composition) + Remotion engine | MIT | — |
 | ② | [iart-ai/youtube-video-skills](https://github.com/iart-ai/youtube-video-skills) | Audiogram / intro / outro — turn episodes into channel branding | MIT | — |
@@ -61,7 +62,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 ### ① Code-to-video — the core Opus 5.5 workflow
 
 <details>
-<summary><b>Expand 23 entries: what / stack / install / license</b></summary>
+<summary><b>Expand 24 entries: what / stack / install / license</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -89,6 +90,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | [axtonliu/video-illustrator](https://github.com/axtonliu/video-illustrator) | Your voice, your assets, any look you choose — turns your narration and real assets into a short film。<br>你的旁白 + 你的素材 + 任选画风，合成一支短片。 | 旁白驱动 + 素材合成代码渲染 | `npx skills add axtonliu/video-illustrator` | MIT | **Yes** |
 | [adunext/adu-motion-video](https://github.com/adunext/adu-motion-video) | Editable HTML/JS scenes, talking-head layouts, captions, audio and verified local MP4 export。<br>可编辑 HTML/JS 场景 + 口播版式 + 字幕音频，本地导出并逐项校验 MP4。 | HTML/JS 场景 + 本地 MP4 导出校验 | `npx skills add adunext/adu-motion-video` | MIT | — |
 | [Wzdhehe/html2video-for-mcode](https://github.com/Wzdhehe/html2video-for-mcode) | Turn a topic, outline, or script into a narrated MP4: HTML slides + staged animations + TTS voiceover + subtitles + ASR verification。<br>主题/大纲/脚本 → 带旁白 MP4：HTML 幻灯片 + 分段动画 + TTS 配音 + 字幕 + ASR 校验。 | HTML 幻灯片 + TTS + ASR 校验 | `npx skills add Wzdhehe/html2video-for-mcode` | MIT | — |
+| [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) | Local video studio for coding agents: one sentence in, a finished MP4 (and a single-file HTML video) out, with motion graphics, local voice-over, a 249-track music catalog with automatic credits, captions and QA checks; works in Claude Code, Codex, Cursor, Devin and OpenCode。<br>面向编码 Agent 的本地视频工作室：一句话生成成片（MP4 与单文件 HTML 视频），含动态图形、本地配音、249 首带自动署名的配乐、字幕与质检；支持 Claude Code、Codex、Cursor、Devin、OpenCode。 | Headless Chrome + ffmpeg + local TTS | `npx skills add FavioVazquez/showtime` | MIT | — |
 
 \* 页面未显示标准许可证标识，可能是自定义许可证；收录前需到原仓库确认。Page shows no standard SPDX license badge — confirm in the source repo.
 

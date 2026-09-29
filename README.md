@@ -8,7 +8,7 @@ English: [README.en.md](README.en.md)
 
 本仓库只放**链接**，不托管任何第三方源码。每条固定字段：一句话用途、渲染栈、安装命令、许可证、是否专为 Opus 5.5。
 
-## ⚡ 速览全部 39 个 skill
+## ⚡ 速览全部 40 个 skill
 
 分类：**①** 用代码出片 · **②** 产品片/成片编辑 · **③** 看视频/视频转 skill · **④** 调用外部视频模型
 
@@ -37,6 +37,7 @@ English: [README.en.md](README.en.md)
 | ① | [axtonliu/video-illustrator](https://github.com/axtonliu/video-illustrator) | 旁白 + 真实素材 + 任选画风 → 短片 | MIT | ✅ |
 | ① | [adunext/adu-motion-video](https://github.com/adunext/adu-motion-video) | 可编辑 HTML/JS 场景 + 口播版式，本地导出校验 MP4 | MIT | — |
 | ① | [Wzdhehe/html2video-for-mcode](https://github.com/Wzdhehe/html2video-for-mcode) | 主题/脚本 → 旁白 MP4：HTML 幻灯 + TTS + ASR 校验 | MIT | — |
+| ① | [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) | 面向编码 Agent 的本地视频工作室：一句话生成动态图形、配音、配乐与字幕，全程本机渲染 | MIT | — |
 | ② | [browser-use/video-use](https://github.com/browser-use/video-use) | 用编码 Agent 剪成片：精剪、字幕、调色、叠加动画 | MIT | — |
 | ② | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) | 运动设计基础（节奏/字体/色彩/构图）+ Remotion 引擎 | MIT | — |
 | ② | [iart-ai/youtube-video-skills](https://github.com/iart-ai/youtube-video-skills) | Audiogram / intro / outro 频道包装件 | MIT | — |
@@ -61,7 +62,7 @@ English: [README.en.md](README.en.md)
 ### ① 用代码出片 —— 最贴近 Opus 5.5 的工作流
 
 <details>
-<summary><b>展开 23 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 24 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -89,6 +90,7 @@ English: [README.en.md](README.en.md)
 | [axtonliu/video-illustrator](https://github.com/axtonliu/video-illustrator) | Your voice, your assets, any look you choose — turns your narration and real assets into a short film。<br>你的旁白 + 你的素材 + 任选画风，合成一支短片。 | 旁白驱动 + 素材合成代码渲染 | `npx skills add axtonliu/video-illustrator` | MIT | **Yes** |
 | [adunext/adu-motion-video](https://github.com/adunext/adu-motion-video) | Editable HTML/JS scenes, talking-head layouts, captions, audio and verified local MP4 export。<br>可编辑 HTML/JS 场景 + 口播版式 + 字幕音频，本地导出并逐项校验 MP4。 | HTML/JS 场景 + 本地 MP4 导出校验 | `npx skills add adunext/adu-motion-video` | MIT | — |
 | [Wzdhehe/html2video-for-mcode](https://github.com/Wzdhehe/html2video-for-mcode) | Turn a topic, outline, or script into a narrated MP4: HTML slides + staged animations + TTS voiceover + subtitles + ASR verification。<br>主题/大纲/脚本 → 带旁白 MP4：HTML 幻灯片 + 分段动画 + TTS 配音 + 字幕 + ASR 校验。 | HTML 幻灯片 + TTS + ASR 校验 | `npx skills add Wzdhehe/html2video-for-mcode` | MIT | — |
+| [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) | Local video studio for coding agents: one sentence in, a finished MP4 (and a single-file HTML video) out, with motion graphics, local voice-over, a 249-track music catalog with automatic credits, captions and QA checks; works in Claude Code, Codex, Cursor, Devin and OpenCode。<br>面向编码 Agent 的本地视频工作室：一句话生成成片（MP4 与单文件 HTML 视频），含动态图形、本地配音、249 首带自动署名的配乐、字幕与质检；支持 Claude Code、Codex、Cursor、Devin、OpenCode。 | Headless Chrome + ffmpeg + local TTS | `npx skills add FavioVazquez/showtime` | MIT | — |
 
 \* 页面未显示标准许可证标识，可能是自定义许可证；收录前需到原仓库确认。Page shows no standard SPDX license badge — confirm in the source repo.
 
