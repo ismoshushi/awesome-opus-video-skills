@@ -8,7 +8,7 @@ English: [README.en.md](README.en.md)
 
 本仓库只放**链接**，不托管任何第三方源码。每条固定字段：一句话用途、渲染栈、安装命令、许可证、是否专为 Opus 5.5。
 
-## ⚡ 速览全部 110 个 skill
+## ⚡ 速览全部 117 个 skill
 
 分类：**①** 用代码出片 · **②** 产品片/成片编辑 · **③** 看视频/视频转 skill · **④** 调用外部视频模型
 
@@ -77,6 +77,13 @@ English: [README.en.md](README.en.md)
 | ① | [huynhcongdac/story-video-skill](https://github.com/huynhcongdac/story-video-skill) | AI agent 讲故事视频 3–5 分钟（越南语） | 1 | MIT | — |
 | ① | [124zhe/xigua-msvideo-skill](https://github.com/124zhe/xigua-msvideo-skill) | Codex skills：YouTube 好奇心故事 + MS Paint 分镜 + 旁白组装 | 2 | MIT | — |
 | ① | [jttriana86/claude-video-skill](https://github.com/jttriana86/claude-video-skill) | 代码动画视频 + AI 配音词级同步（西语） | — | MIT | — |
+| ① | [Kianzzz/xilo-opus-video](https://github.com/Kianzzz/xilo-opus-video) | 通用型：想法/文章/参考视频 → 多套方案预览 → 成片 | 104 | MIT | ✅ |
+| ① | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 43 种影片风格图册，按风格名生成 | 2,270 | MIT | ✅ |
+| ① | [chuspeeism/dashi-animationstyle](https://github.com/chuspeeism/dashi-animationstyle) | 中文口播配画面：15–60 秒，7 套画风，带字幕可导剪映 | 29 | MIT | ✅ |
+| ① | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 美术史题材：35 种可动化艺术风格 + 9 种解说讲法 | 3,931 | MIT | — |
+| ① | [WaterDJiang/Wattter_openSkills](https://github.com/WaterDJiang/Wattter_openSkills) | 一站式：想法 → 中文剧本 + 分镜 + 可改源码 + 带声音 MP4 | 45 | ⚠️ 未标注 | — |
+| ① | [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) | 15 种 MG 风格，每支约 10 秒，附提示词 + 源码（非可安装 skill） | 818 | MIT | ✅ |
+| ① | [nutllwhy/code-brand-film](https://github.com/nutllwhy/code-brand-film) | 用代码做 15 秒品牌宣传片：单页 HTML + GSAP 时间轴 → HyperFrames 逐帧渲染，配乐 Python 合成原创曲、节拍跟切点 | 14 | MIT | — |
 | ② | [browser-use/video-use](https://github.com/browser-use/video-use) | 用编码 Agent 剪成片：精剪、字幕、调色、叠加动画 | 27,657 | MIT | — |
 | ② | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) | 运动设计基础（节奏/字体/色彩/构图）+ Remotion 引擎 | 39 | MIT | — |
 | ② | [iart-ai/youtube-video-skills](https://github.com/iart-ai/youtube-video-skills) | Audiogram / intro / outro 频道包装件 | 4 | MIT | — |
@@ -132,7 +139,7 @@ English: [README.en.md](README.en.md)
 ### ① 用代码出片 —— 最贴近 Opus 5.5 的工作流
 
 <details>
-<summary><b>展开 63 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 70 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -200,6 +207,13 @@ English: [README.en.md](README.en.md)
 | [huynhcongdac/story-video-skill](https://github.com/huynhcongdac/story-video-skill) | AI-agent storytelling videos, 3–5 minutes (Vietnamese docs)。<br>AI agent 讲故事视频 3–5 分钟（越南语）。 | 见原仓库 README | `npx skills add huynhcongdac/story-video-skill` | MIT | — |
 | [124zhe/xigua-msvideo-skill](https://github.com/124zhe/xigua-msvideo-skill) | Codex skills: YouTube curiosity stories + MS Paint storyboards + narration assembly。<br>Codex skills：YouTube 好奇心故事 + MS Paint 分镜 + 旁白组装。 | 见原仓库 README | `npx skills add 124zhe/xigua-msvideo-skill` | MIT | — |
 | [jttriana86/claude-video-skill](https://github.com/jttriana86/claude-video-skill) | Code-animated videos + AI voice-over with word-level sync (Spanish)。<br>代码动画视频 + AI 配音词级同步（西语）。 | 代码渲染 + TTS 词级同步 | 见原仓库 README（skill 在子目录） | MIT | — |
+| [Kianzzz/xilo-opus-video](https://github.com/Kianzzz/xilo-opus-video) | General-purpose: idea/article/reference video → multiple plan previews → finished film。<br>通用型：想法/文章/参考视频 → 多套方案预览 → 成片。 | Canvas / HTML·CSS·SVG / WebGL / Three.js / Remotion / HyperFrames / Manim + 代码合成配乐 + Playwright + ffmpeg | `npx skills add Kianzzz/xilo-opus-video` | MIT | ✅ |
+| [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 43 film-style catalogs (thick oil painting, Chinese ink, ukiyo-e, whiteboard explainer, etc.), generate by style name。<br>43 种影片风格图册（厚涂油画、中国水墨、浮世绘、白板讲解等），按风格名生成。 | 代码渲染 + ffmpeg | `/plugin marketplace add lemomo-ai/lemo-opuscar` | MIT | ✅ |
+| [chuspeeism/dashi-animationstyle](https://github.com/chuspeeism/dashi-animationstyle) | Chinese voiceover + visuals: 15–60s, 7 art styles, captioned, exportable to CapCut。<br>中文口播配画面：15–60 秒，7 套画风（手绘笔记、复古报刊、黑底科技等），带字幕可导剪映。（LICENSE 原文为 MIT 正文，GitHub 徽标识别为 NOASSERTION） | HTML/Canvas + 无头 Chrome 逐帧截图 + ffmpeg（不用生图模型） | 见原仓库 README（根目录 SKILL.md） | MIT | ✅ |
+| [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | Art-history topics: 35 animatable art styles (cave murals to pixel games) + 9 explainer-animation formats。<br>美术史题材：35 种可动化艺术风格（洞穴壁画到像素游戏）+ 9 种解说动画讲法。 | Playwright Chromium + ffmpeg（scripts/engine/render.py 引擎），uv | `npx skills add alchaincyf/huashu-art-motion` | MIT | — |
+| [WaterDJiang/Wattter_openSkills](https://github.com/WaterDJiang/Wattter_openSkills) | One-stop: idea → Chinese script + storyboard + editable source + voiced MP4; hand-drawn paper texture, retro halftone, pixel, watercolor, sand, chalk, particles, mosaic, clay look, MG & mixed styles。<br>一站式：想法 → 中文剧本 + 分镜 + 可改源码 + 带声音 MP4；覆盖手绘纸纹、复古印刷网点、像素、水彩、沙画、粉笔、粒子、马赛克、黏土外观、MG 与混合画法。 | Canvas/p5.js 逐帧绘制 + 浏览器 + MP4 + 配音脚本（film.json 单一来源） | 复制 wattter_skills/wtt-code-animation-studio/ 或 `/plugin marketplace add WaterDJiang/Wattter_openSkills` | ⚠️ 未标注 | — |
+| [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) | 15 MG motion-design styles, ~10s each, with full prompts + source; music generated in code。<br>15 种 MG 动态设计风格，每支约 10 秒，附完整提示词和源码，配乐代码生成。⚠️ 非可安装 skill（成片 + 提示词 + 模板）。 | HTML + JS 渲染（harness/preview.html、render.mjs）+ 代码生成配乐 | 无（成片 + 提示词 + 模板，非可安装 skill） | MIT | ✅ |
+| [nutllwhy/code-brand-film](https://github.com/nutllwhy/code-brand-film) | Code-generated 15s brand films: one HTML page + paused GSAP timeline, frame-by-frame via HyperFrames; original score synthesized in Python, beats on cuts。<br>用代码做 15 秒品牌宣传片：单页 HTML + GSAP 时间轴 → HyperFrames 逐帧渲染，配乐 Python 合成原创曲、节拍跟切点。<br>🎬 样片：[15 秒演示](demos/code-brand-film-15s.mp4)（用本 skill 实测渲染） | HTML + GSAP + HyperFrames + Python 合成配乐 + ffmpeg | 见原仓库 README（根目录 SKILL.md） | MIT | — |
 
 \* 页面未显示标准许可证标识，可能是自定义许可证；收录前需到原仓库确认。Page shows no standard SPDX license badge — confirm in the source repo.
 
