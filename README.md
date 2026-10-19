@@ -8,7 +8,7 @@ English: [README.en.md](README.en.md)
 
 本仓库只放**链接**，不托管任何第三方源码。每条固定字段：一句话用途、渲染栈、安装命令、许可证、是否专为 Opus 5.5。
 
-## ⚡ 速览全部 118 个 skill
+## ⚡ 速览全部 125 个 skill
 
 分类：**①** 用代码出片 · **②** 产品片/成片编辑 · **③** 看视频/视频转 skill · **④** 调用外部视频模型
 
@@ -85,6 +85,8 @@ English: [README.en.md](README.en.md)
 | ① | [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) | 15 种 MG 风格，每支约 10 秒，附提示词 + 源码（非可安装 skill） | 818 | MIT | ✅ |
 | ① | [nutllwhy/code-brand-film](https://github.com/nutllwhy/code-brand-film) | 用代码做 15 秒品牌宣传片：单页 HTML + GSAP 时间轴 → HyperFrames 逐帧渲染，配乐 Python 合成原创曲、节拍跟切点 | 14 | MIT | — |
 | ① | [imraywang/rayskills](https://github.com/imraywang/rayskills) | ray-explainer：文章/观点 → 知识解说视频（默认竖屏 1.5–3 分钟，配音+字幕），canvas/JS 逐帧代码绘制；仓库共 8 个 skill | 173 | CC BY-NC 4.0（非商业） | — |
+| ① | [liangdabiao/whiteboard-teacher-video](https://github.com/liangdabiao/whiteboard-teacher-video) | 讲解稿变手绘讲解视频：代码逐笔绘出，五套风格 | 20 | MIT | — |
+| ① | [yanghui960/qianrong-video-skill](https://github.com/yanghui960/qianrong-video-skill) | 拆书/知识阐释短视频：纯代码绘制 + 中文配音 | 1 | MIT | — |
 | ② | [browser-use/video-use](https://github.com/browser-use/video-use) | 用编码 Agent 剪成片：精剪、字幕、调色、叠加动画 | 27,657 | MIT | — |
 | ② | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) | 运动设计基础（节奏/字体/色彩/构图）+ Remotion 引擎 | 39 | MIT | — |
 | ② | [iart-ai/youtube-video-skills](https://github.com/iart-ai/youtube-video-skills) | Audiogram / intro / outro 频道包装件 | 4 | MIT | — |
@@ -109,6 +111,10 @@ English: [README.en.md](README.en.md)
 | ② | [misbahsy/24fps-skills](https://github.com/misbahsy/24fps-skills) | Agent skill + MCP：24fps 的 motion graphics/提示词/剪辑预设检索 | — | MIT | — |
 | ② | [VisualxIntelligence/motion-tools-and-skills](https://github.com/VisualxIntelligence/motion-tools-and-skills) | AI 辅助 motion design 工具 + skills + prompts（多引擎） | — | MIT | — |
 | ② | [Benitoow/cinema-skills](https://github.com/Benitoow/cinema-skills) | 给 filmmaker/editor 的 5 个 agent skills | — | MIT | — |
+| ② | [Samin12/proof-first-video-pipeline](https://github.com/Samin12/proof-first-video-pipeline) | 分阶段剪辑流水线：先剪辑后验 claims，多 agent | 5 | MIT | ✅ |
+| ② | [kaylon-he/video-subtitle-skill](https://github.com/kaylon-he/video-subtitle-skill) | 视频自动加字幕并烧录：whisper.cpp 本地离线 | 1 | MIT | — |
+| ② | [dreamworker0/claude-video-edit-skill](https://github.com/dreamworker0/claude-video-edit-skill) | Premiere 复刻/从零剪辑：FFmpeg + PSNR 对比 | 1 | MIT | — |
+| ② | [atshalahmedkhan/SKILL_video](https://github.com/atshalahmedkhan/SKILL_video) | 访谈/播客 → 转录 + 高光 + 故事剪辑清单 | 1 | MIT | — |
 | ③ | [Newuxtreme/watch-video-skill](https://github.com/Newuxtreme/watch-video-skill) | 教 AI「看」视频：学习、吸收、复刻、视觉反馈 | 70 | MIT | — |
 | ③ | [Lum1104/video-to-skill](https://github.com/Lum1104/video-to-skill) | 把视频和课程转成有据可查的 Agent Skill | 31 | MIT | — |
 | ③ | [Moh4696/claude-video-vision](https://github.com/Moh4696/claude-video-vision) | ffmpeg + 本地 Whisper 看懂本地视频（离线可用） | 9 | ⚠️ 未标注 | — |
@@ -119,6 +125,7 @@ English: [README.en.md](README.en.md)
 | ③ | [Jayne040622/video-to-knowledge-skill](https://github.com/Jayne040622/video-to-knowledge-skill) | 抖音/B站/小红书/YouTube → 转录 + 帧（evidence-linked） | — | MIT | — |
 | ③ | [authrain-cloud-abdullahformuli/watch-skill](https://github.com/authrain-cloud-abdullahformuli/watch-skill) | 给 agent 视频输入：watch/index/ask/iterate（MCP/CLI/REST） | — | MIT | — |
 | ③ | [sunsunsunai/video2tutorial-skill](https://github.com/sunsunsunai/video2tutorial-skill) | 录屏 → 图文步骤教程（DOCX）：连续关键帧抽取 | — | MIT | — |
+| ③ | [robert-botto/skipwatch](https://github.com/robert-botto/skipwatch) | 教程视频链接 → 带时间戳的已安装 skill | 7 | MIT | — |
 | ④ | [smixs/visual-skills](https://github.com/smixs/visual-skills) | AI 导演技能：剪辑理论 + Seedance/Kling/Veo 提示词语法 | 455 | CC-BY-4.0 | — |
 | ④ | [0xadvait/ai-video-skill](https://github.com/0xadvait/ai-video-skill) | 跨 6 个视频模型端到端出片 + 自我改进质控环 | 6 | MIT | — |
 | ④ | [scenario-labs/skills](https://github.com/scenario-labs/skills) | Scenario MCP：按需选模型出图/视频/音频/3D + 驱动 Blender/Maya/Unreal | 751 | MIT | — |
@@ -140,7 +147,7 @@ English: [README.en.md](README.en.md)
 ### ① 用代码出片 —— 最贴近 Opus 5.5 的工作流
 
 <details>
-<summary><b>展开 71 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 73 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -221,12 +228,15 @@ English: [README.en.md](README.en.md)
 
 > makevoid 条目的部分音频/素材走 FAL 生成，需自备 API key（约 $30 + 3M tokens / 3 分钟歌）；其余条目本地代码渲染即可。
 
+| [liangdabiao/whiteboard-teacher-video](https://github.com/liangdabiao/whiteboard-teacher-video) | Turn a script into a hand-drawn explainer video: code-drawn stroke by stroke, 5 styles, zero image-gen cost。<br>讲解稿变手绘讲解视频：代码逐笔绘出、文字逐字写出，五套风格，本地 Chrome 渲染零生图成本。 | rough.js + Chrome + edge-tts | 见原仓库 README | MIT | [B站演示](https://www.bilibili.com/video/BV1yYJ46PE5R/) |
+| [yanghui960/qianrong-video-skill](https://github.com/yanghui960/qianrong-video-skill) | Code-only book-breakdown video pipeline: narration, beat-sync, adversarial audit。<br>纯代码拆书/知识阐释短视频流水线：中文配音、节拍同步、对抗式审计。 | 代码绘制 + TTS + ffmpeg | `git clone https://github.com/yanghui960/qianrong-video-skill.git ~/.agents/skills/qianrong-video-skill` | MIT | [demo 60s](https://github.com/yanghui960/qianrong-video-skill/blob/main/demo/qianrong-creative-60s.mp4) |
+
 </details>
 
 ### ② 产品片 / 成片编辑
 
 <details>
-<summary><b>展开 24 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 28 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -256,12 +266,17 @@ English: [README.en.md](README.en.md)
 | [VisualxIntelligence/motion-tools-and-skills](https://github.com/VisualxIntelligence/motion-tools-and-skills) | AI-assisted motion-design tools + skills + prompts (Three.js/GSAP/HyperFrames/Remotion)。<br>AI 辅助 motion design 工具 + skills + prompts（Three.js/GSAP/HyperFrames/Remotion）。 | Three.js/GSAP/HyperFrames/Remotion | `npx skills add VisualxIntelligence/motion-tools-and-skills` | MIT | — |
 | [Benitoow/cinema-skills](https://github.com/Benitoow/cinema-skills) | 5 agent skills for filmmakers/editors。<br>给 filmmaker/editor 的 5 个 agent skills。 | 见原仓库 README | `/plugin marketplace add Benitoow/cinema-skills` | MIT | — |
 
+| [Samin12/proof-first-video-pipeline](https://github.com/Samin12/proof-first-video-pipeline) | Staged video-editing pipeline: cut first, verify claims, then build timed visuals; multi-agent。<br>分阶段剪辑流水线：先剪辑、再验 claims、后做定时视觉；支持 Codex/Claude/Grok。 | 见原仓库 README | 见原仓库 README（releases 下 ZIP） | MIT | [交互式管线演示](https://samin12.github.io/proof-first-video-pipeline/) |
+| [kaylon-he/video-subtitle-skill](https://github.com/kaylon-he/video-subtitle-skill) | Auto-generate subtitles and burn them into the video, fully offline。<br>视频自动加字幕并烧进画面：whisper.cpp 转录 + FFmpeg/libass 烧录，全本地。 | whisper.cpp + FFmpeg/libass | 见原仓库 README（brew 安装） | MIT | [Release v0.1.0 演示](https://github.com/kaylon-he/video-subtitle-skill/releases/download/v0.1.0/demo-subtitled.mp4) |
+| [dreamworker0/claude-video-edit-skill](https://github.com/dreamworker0/claude-video-edit-skill) | Reproduce a Premiere project or edit from raw footage with FFmpeg。<br>Premiere 项目复刻或从零剪辑：FFmpeg 渲染 + PSNR 画质对比（韩文文档）。 | FFmpeg + whisper filter | `git clone https://github.com/dreamworker0/claude-video-edit-skill ~/.claude/skills/premiere-ffmpeg-render` | MIT | — |
+| [atshalahmedkhan/SKILL_video](https://github.com/atshalahmedkhan/SKILL_video) | Turn interviews/podcasts into verified transcripts, highlights and story cut lists。<br>访谈/播客 → 可验证转录 + 高光时刻 + 故事剪辑清单（storycut）。 | faster-whisper + Python | 见原仓库 README（拷到 .claude/skills/storycut/） | MIT | — |
+
 </details>
 
 ### ③ 看视频 / 把视频变成 skill（相邻方向）
 
 <details>
-<summary><b>展开 10 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 11 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -276,6 +291,8 @@ English: [README.en.md](README.en.md)
 | [Jayne040622/video-to-knowledge-skill](https://github.com/Jayne040622/video-to-knowledge-skill) | Douyin/Bilibili/Xiaohongshu/YouTube → transcript + frames (evidence-linked)。<br>抖音/B站/小红书/YouTube → 转录 + 帧（evidence-linked）。 | 转录 + 抽帧 | `npx skills add Jayne040622/video-to-knowledge-skill` | MIT | — |
 | [authrain-cloud-abdullahformuli/watch-skill](https://github.com/authrain-cloud-abdullahformuli/watch-skill) | Gives agents video input: watch / index / ask / iterate (MCP/CLI/REST/Python)。<br>给 agent 视频输入：watch/index/ask/iterate（MCP/CLI/REST/Python）。 | 视频输入通道（MCP/CLI/REST） | `/plugin marketplace add authrain-cloud-abdullahformuli/watch-skill` | MIT | — |
 | [sunsunsunai/video2tutorial-skill](https://github.com/sunsunsunai/video2tutorial-skill) | Screen recording → illustrated step-by-step tutorial (DOCX): continuous keyframe extraction。<br>录屏 → 图文步骤教程（DOCX）：连续关键帧抽取。 | 关键帧抽取 + 文档生成 | `npx skills add sunsunsunai/video2tutorial-skill` | MIT | — |
+
+| [robert-botto/skipwatch](https://github.com/robert-botto/skipwatch) | Turn a tutorial video link into an installed Agent Skill with timestamped steps。<br>教程视频链接变成带时间戳的已安装 skill：YouTube/X/抖音/录屏都行。 | yt-dlp + Claude Code plugin | `/plugin marketplace add robert-botto/skipwatch` | MIT | — |
 
 </details>
 
