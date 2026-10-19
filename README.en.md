@@ -8,7 +8,7 @@ A curated index of **open-source, installable Agent skills that make videos by w
 
 This repo only **links** to open-source projects — no third-party source code is re-hosted. Every entry lists: what it does, render stack, install command, license, and whether it was built specifically for Opus 5.5.
 
-## ⚡ Quick overview — all 118 skills
+## ⚡ Quick overview — all 125 skills
 
 Categories: **①** Code-to-video · **②** Product videos & footage editing · **③** Watch videos / video-to-skill · **④** External video-model callers
 
@@ -85,6 +85,8 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | ① | [Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) | 15 MG styles, ~10s each, with prompts + source (not an installable skill) | 818 | MIT | ✅ |
 | ① | [nutllwhy/code-brand-film](https://github.com/nutllwhy/code-brand-film) | Code-generated 15s brand films: one HTML page + paused GSAP timeline, HyperFrames frame-by-frame; Python-synthesized score, beats on cuts | 14 | MIT | — |
 | ① | [imraywang/rayskills](https://github.com/imraywang/rayskills) | ray-explainer: articles/opinions → knowledge explainer videos (vertical, 1.5–3 min, voiceover + subtitles), canvas/JS frame-by-frame; 8 skills in repo | 173 | CC BY-NC 4.0 (non-commercial) | — |
+| ① | [liangdabiao/whiteboard-teacher-video](https://github.com/liangdabiao/whiteboard-teacher-video) | Script → hand-drawn explainer video: code-drawn strokes, 5 styles | 20 | MIT | — |
+| ① | [yanghui960/qianrong-video-skill](https://github.com/yanghui960/qianrong-video-skill) | Book-breakdown explainers: code-only rendering + Chinese narration | 1 | MIT | — |
 | ② | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents: cuts, captions, color, overlaid animation | 27,657 | MIT | — |
 | ② | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) | Motion-design fundamentals (timing/type/color/composition) + Remotion engine | 39 | MIT | — |
 | ② | [iart-ai/youtube-video-skills](https://github.com/iart-ai/youtube-video-skills) | Audiogram / intro / outro — turn episodes into channel branding | 4 | MIT | — |
@@ -109,6 +111,10 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | ② | [misbahsy/24fps-skills](https://github.com/misbahsy/24fps-skills) | Agent skill + MCP: search 24fps for motion graphics / prompts / editing presets | — | MIT | — |
 | ② | [VisualxIntelligence/motion-tools-and-skills](https://github.com/VisualxIntelligence/motion-tools-and-skills) | AI-assisted motion-design tools + skills + prompts (multi-engine) | — | MIT | — |
 | ② | [Benitoow/cinema-skills](https://github.com/Benitoow/cinema-skills) | 5 agent skills for filmmakers/editors | — | MIT | — |
+| ② | [Samin12/proof-first-video-pipeline](https://github.com/Samin12/proof-first-video-pipeline) | Staged editing pipeline: cut first, verify claims, multi-agent | 5 | MIT | ✅ |
+| ② | [kaylon-he/video-subtitle-skill](https://github.com/kaylon-he/video-subtitle-skill) | Auto subtitles burned into video: whisper.cpp, fully offline | 1 | MIT | — |
+| ② | [dreamworker0/claude-video-edit-skill](https://github.com/dreamworker0/claude-video-edit-skill) | Reproduce Premiere projects or edit from scratch with FFmpeg | 1 | MIT | — |
+| ② | [atshalahmedkhan/SKILL_video](https://github.com/atshalahmedkhan/SKILL_video) | Interviews/podcasts → transcript + highlights + story cut list | 1 | MIT | — |
 | ③ | [Newuxtreme/watch-video-skill](https://github.com/Newuxtreme/watch-video-skill) | Teaches your AI to watch videos: learn, absorb, imitate, give feedback | 70 | MIT | — |
 | ③ | [Lum1104/video-to-skill](https://github.com/Lum1104/video-to-skill) | Turns videos and courses into evidence-grounded Agent Skills | 31 | MIT | — |
 | ③ | [Moh4696/claude-video-vision](https://github.com/Moh4696/claude-video-vision) | ffmpeg + local Whisper so Claude understands local videos (offline) | 9 | ⚠️ Unstated | — |
@@ -119,6 +125,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | ③ | [Jayne040622/video-to-knowledge-skill](https://github.com/Jayne040622/video-to-knowledge-skill) | Douyin/Bilibili/Xiaohongshu/YouTube → transcript + frames (evidence-linked) | — | MIT | — |
 | ③ | [authrain-cloud-abdullahformuli/watch-skill](https://github.com/authrain-cloud-abdullahformuli/watch-skill) | Gives agents video input: watch / index / ask / iterate (MCP/CLI/REST) | — | MIT | — |
 | ③ | [sunsunsunai/video2tutorial-skill](https://github.com/sunsunsunai/video2tutorial-skill) | Screen recording → illustrated step-by-step tutorial (DOCX) | — | MIT | — |
+| ③ | [robert-botto/skipwatch](https://github.com/robert-botto/skipwatch) | Tutorial video link → installed skill with timestamped steps | 7 | MIT | — |
 | ④ | [smixs/visual-skills](https://github.com/smixs/visual-skills) | AI film-director skills + exact Seedance/Kling/Veo prompt syntax | 455 | CC-BY-4.0 | — |
 | ④ | [0xadvait/ai-video-skill](https://github.com/0xadvait/ai-video-skill) | End-to-end generation across 6 video models + self-improving QC loop | 6 | MIT | — |
 | ④ | [scenario-labs/skills](https://github.com/scenario-labs/skills) | Scenario MCP: on-demand model picking for image/video/audio/3D + Blender/Maya/Unreal expert skills | 751 | MIT | — |
@@ -140,7 +147,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 ### ① Code-to-video — the core Opus 5.5 workflow
 
 <details>
-<summary><b>Expand 71 entries: what / stack / install / license</b></summary>
+<summary><b>Expand 73 entries: what / stack / install / license</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -221,12 +228,15 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 
 > The makevoid entry generates part of its audio/assets via FAL — bring your own API key (~$30 + 3M tokens per 3-min song); everything else renders locally from code.
 
+| [liangdabiao/whiteboard-teacher-video](https://github.com/liangdabiao/whiteboard-teacher-video) | Turn a script into a hand-drawn explainer video: code-drawn stroke by stroke, 5 styles, zero image-gen cost. | rough.js + Chrome + edge-tts | See repo README | MIT | [Bilibili demo](https://www.bilibili.com/video/BV1yYJ46PE5R/) |
+| [yanghui960/qianrong-video-skill](https://github.com/yanghui960/qianrong-video-skill) | Code-only book-breakdown video pipeline: narration, beat-sync, adversarial audit. | Code rendering + TTS + ffmpeg | `git clone https://github.com/yanghui960/qianrong-video-skill.git ~/.agents/skills/qianrong-video-skill` | MIT | [demo 60s](https://github.com/yanghui960/qianrong-video-skill/blob/main/demo/qianrong-creative-60s.mp4) |
+
 </details>
 
 ### ② Product videos & footage editing
 
 <details>
-<summary><b>Expand 24 entries</b></summary>
+<summary><b>Expand 28 entries</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -256,12 +266,17 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | [VisualxIntelligence/motion-tools-and-skills](https://github.com/VisualxIntelligence/motion-tools-and-skills) | AI-assisted motion-design tools + skills + prompts (Three.js/GSAP/HyperFrames/Remotion)。<br>AI 辅助 motion design 工具 + skills + prompts（Three.js/GSAP/HyperFrames/Remotion）。 | Three.js/GSAP/HyperFrames/Remotion | `npx skills add VisualxIntelligence/motion-tools-and-skills` | MIT | — |
 | [Benitoow/cinema-skills](https://github.com/Benitoow/cinema-skills) | 5 agent skills for filmmakers/editors。<br>给 filmmaker/editor 的 5 个 agent skills。 | 见原仓库 README | `/plugin marketplace add Benitoow/cinema-skills` | MIT | — |
 
+| [Samin12/proof-first-video-pipeline](https://github.com/Samin12/proof-first-video-pipeline) | Staged video-editing pipeline: cut first, verify claims, then build timed visuals; multi-agent. | See repo README | See repo README (ZIP in releases) | MIT | [Interactive pipeline demo](https://samin12.github.io/proof-first-video-pipeline/) |
+| [kaylon-he/video-subtitle-skill](https://github.com/kaylon-he/video-subtitle-skill) | Auto-generate subtitles and burn them into the video, fully offline. | whisper.cpp + FFmpeg/libass | See repo README (brew install) | MIT | [Release v0.1.0 demo](https://github.com/kaylon-he/video-subtitle-skill/releases/download/v0.1.0/demo-subtitled.mp4) |
+| [dreamworker0/claude-video-edit-skill](https://github.com/dreamworker0/claude-video-edit-skill) | Reproduce a Premiere project or edit from raw footage with FFmpeg. | FFmpeg + whisper filter | `git clone https://github.com/dreamworker0/claude-video-edit-skill ~/.claude/skills/premiere-ffmpeg-render` | MIT | — |
+| [atshalahmedkhan/SKILL_video](https://github.com/atshalahmedkhan/SKILL_video) | Turn interviews/podcasts into verified transcripts, highlights and story cut lists. | faster-whisper + Python | See repo README (copy to .claude/skills/storycut/) | MIT | — |
+
 </details>
 
 ### ③ Watch videos / video-to-skill (adjacent)
 
 <details>
-<summary><b>Expand 10 entries</b></summary>
+<summary><b>Expand 11 entries</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -276,6 +291,8 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | [Jayne040622/video-to-knowledge-skill](https://github.com/Jayne040622/video-to-knowledge-skill) | Douyin/Bilibili/Xiaohongshu/YouTube → transcript + frames (evidence-linked)。<br>抖音/B站/小红书/YouTube → 转录 + 帧（evidence-linked）。 | 转录 + 抽帧 | `npx skills add Jayne040622/video-to-knowledge-skill` | MIT | — |
 | [authrain-cloud-abdullahformuli/watch-skill](https://github.com/authrain-cloud-abdullahformuli/watch-skill) | Gives agents video input: watch / index / ask / iterate (MCP/CLI/REST/Python)。<br>给 agent 视频输入：watch/index/ask/iterate（MCP/CLI/REST/Python）。 | 视频输入通道（MCP/CLI/REST） | `/plugin marketplace add authrain-cloud-abdullahformuli/watch-skill` | MIT | — |
 | [sunsunsunai/video2tutorial-skill](https://github.com/sunsunsunai/video2tutorial-skill) | Screen recording → illustrated step-by-step tutorial (DOCX): continuous keyframe extraction。<br>录屏 → 图文步骤教程（DOCX）：连续关键帧抽取。 | 关键帧抽取 + 文档生成 | `npx skills add sunsunsunai/video2tutorial-skill` | MIT | — |
+
+| [robert-botto/skipwatch](https://github.com/robert-botto/skipwatch) | Turn a tutorial video link into an installed Agent Skill with timestamped steps. | yt-dlp + Claude Code plugin | `/plugin marketplace add robert-botto/skipwatch` | MIT | — |
 
 </details>
 
