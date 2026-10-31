@@ -8,7 +8,7 @@ English: [README.en.md](README.en.md)
 
 本仓库只放**链接**，不托管任何第三方源码。每条固定字段：一句话用途、渲染栈、安装命令、许可证、是否专为 Opus 5.5。
 
-## ⚡ 速览全部 125 个 skill
+## ⚡ 速览全部 133 个 skill
 
 分类：**①** 用代码出片 · **②** 产品片/成片编辑 · **③** 看视频/视频转 skill · **④** 调用外部视频模型
 
@@ -87,6 +87,11 @@ English: [README.en.md](README.en.md)
 | ① | [imraywang/rayskills](https://github.com/imraywang/rayskills) | ray-explainer：文章/观点 → 知识解说视频（默认竖屏 1.5–3 分钟，配音+字幕），canvas/JS 逐帧代码绘制；仓库共 8 个 skill | 173 | CC BY-NC 4.0（非商业） | — |
 | ① | [liangdabiao/whiteboard-teacher-video](https://github.com/liangdabiao/whiteboard-teacher-video) | 讲解稿变手绘讲解视频：代码逐笔绘出，五套风格 | 20 | MIT | — |
 | ① | [yanghui960/qianrong-video-skill](https://github.com/yanghui960/qianrong-video-skill) | 拆书/知识阐释短视频：纯代码绘制 + 中文配音 | 1 | MIT | — |
+| ① | [mileson/chaojifeng-video-design](https://github.com/mileson/chaojifeng-video-design) | AI Agent 视频主线/分镜/声画节奏方法论与交付验收，交付成片与可编辑工程 | 481 | MIT（样片 CC BY 4.0） | — |
+| ① | [ItsssssJack/claude-video-2](https://github.com/ItsssssJack/claude-video-2) | Claude Code 做影棚级动态图形，21 种风格画廊，可选 Higgsfield AI 片段 | 122 | MIT | — |
+| ① | [win4r/video-director](https://github.com/win4r/video-director) | 面向 Opus 5.5 的代码成片导演 skill：短视频写成代码，逐帧渲染 MP4，含门控流程与 QA | 194 | MIT | ✅ |
+| ① | [Moessif/code-video-showcase](https://github.com/Moessif/code-video-showcase) | 纯代码卡点风格展示片：画面逐帧绘制、配乐纯合成、FFmpeg 合成，不调用生成模型 | 230 | MIT | ✅ |
+| ① | [sirioberati/YouTube-AI-Motion-Graphics](https://github.com/sirioberati/YouTube-AI-Motion-Graphics) | 74 个动画讲解板（图表、示意图），与解说语音同步，含全套 prompt 与 Claude Skill | 102 | MIT | — |
 | ② | [browser-use/video-use](https://github.com/browser-use/video-use) | 用编码 Agent 剪成片：精剪、字幕、调色、叠加动画 | 27,657 | MIT | — |
 | ② | [iart-ai/motion-design-skills](https://github.com/iart-ai/motion-design-skills) | 运动设计基础（节奏/字体/色彩/构图）+ Remotion 引擎 | 39 | MIT | — |
 | ② | [iart-ai/youtube-video-skills](https://github.com/iart-ai/youtube-video-skills) | Audiogram / intro / outro 频道包装件 | 4 | MIT | — |
@@ -115,6 +120,7 @@ English: [README.en.md](README.en.md)
 | ② | [kaylon-he/video-subtitle-skill](https://github.com/kaylon-he/video-subtitle-skill) | 视频自动加字幕并烧录：whisper.cpp 本地离线 | 1 | MIT | — |
 | ② | [dreamworker0/claude-video-edit-skill](https://github.com/dreamworker0/claude-video-edit-skill) | Premiere 复刻/从零剪辑：FFmpeg + PSNR 对比 | 1 | MIT | — |
 | ② | [atshalahmedkhan/SKILL_video](https://github.com/atshalahmedkhan/SKILL_video) | 访谈/播客 → 转录 + 高光 + 故事剪辑清单 | 1 | MIT | — |
+| ② | [actionow-ai/vvv](https://github.com/actionow-ai/vvv) | 可复用婚礼视频模板 + Agent Skill：一次构建，供 25+ 编程 Agent 使用，含参考视频拆解重建 | 499 | MIT（媒体另见 MEDIA_LICENSE.md） | — |
 | ③ | [Newuxtreme/watch-video-skill](https://github.com/Newuxtreme/watch-video-skill) | 教 AI「看」视频：学习、吸收、复刻、视觉反馈 | 70 | MIT | — |
 | ③ | [Lum1104/video-to-skill](https://github.com/Lum1104/video-to-skill) | 把视频和课程转成有据可查的 Agent Skill | 31 | MIT | — |
 | ③ | [Moh4696/claude-video-vision](https://github.com/Moh4696/claude-video-vision) | ffmpeg + 本地 Whisper 看懂本地视频（离线可用） | 9 | ⚠️ 未标注 | — |
@@ -126,6 +132,7 @@ English: [README.en.md](README.en.md)
 | ③ | [authrain-cloud-abdullahformuli/watch-skill](https://github.com/authrain-cloud-abdullahformuli/watch-skill) | 给 agent 视频输入：watch/index/ask/iterate（MCP/CLI/REST） | — | MIT | — |
 | ③ | [sunsunsunai/video2tutorial-skill](https://github.com/sunsunsunai/video2tutorial-skill) | 录屏 → 图文步骤教程（DOCX）：连续关键帧抽取 | — | MIT | — |
 | ③ | [robert-botto/skipwatch](https://github.com/robert-botto/skipwatch) | 教程视频链接 → 带时间戳的已安装 skill | 7 | MIT | — |
+| ③ | [lovisdotio/motion2code](https://github.com/lovisdotio/motion2code) | 把动效视频研究后重建成干净、可编辑代码（内联 SVG + GSAP），逐帧对照源视频校验 | 307 | MIT | ✅ |
 | ④ | [smixs/visual-skills](https://github.com/smixs/visual-skills) | AI 导演技能：剪辑理论 + Seedance/Kling/Veo 提示词语法 | 455 | CC-BY-4.0 | — |
 | ④ | [0xadvait/ai-video-skill](https://github.com/0xadvait/ai-video-skill) | 跨 6 个视频模型端到端出片 + 自我改进质控环 | 6 | MIT | — |
 | ④ | [scenario-labs/skills](https://github.com/scenario-labs/skills) | Scenario MCP：按需选模型出图/视频/音频/3D + 驱动 Blender/Maya/Unreal | 751 | MIT | — |
@@ -139,6 +146,7 @@ English: [README.en.md](README.en.md)
 | ④ | [Violinet-tech/seamless-loop-video](https://github.com/Violinet-tech/seamless-loop-video) | 静帧 → 循环氛围视频（ComfyUI 内 MiniMax H3） | 2 | MIT | — |
 | ④ | [MichaelCao1/Videoprompt](https://github.com/MichaelCao1/Videoprompt) | Seedance 2.5 shot-memo 风格的视频提示词 skill | 2 | MIT | — |
 | ④ | [creatify-ai/creatify-ad-agent-skill](https://github.com/creatify-ai/creatify-ad-agent-skill) | Creatify Ad Agent MCP plugin：规划/生成/剪辑/发布视频广告 | — | MIT | — |
+| ④ | [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | 一张照片加一句话，生成带 AI 数字人的完整口播视频（文案、对口型主播、字幕、包装全自动化） | 1,558 | MIT | — |
 
 > 「5.5?」判定口径（首批 2026-09-27、第二批 2026-09-29、第三批 2026-10-07 逐仓复核各仓库 README 与描述）：**✅** = 明确点名 Opus 5.5；**—** = 未明确点名（多为通用 Claude 技能，通用即兼容 5.5）。**⚠️** = 页面未见标准许可证标识，收录前待确认。**⭐** = 抓取时的 star 快照（首批/二批 2026-09-30、第三批 2026-10-07），仅供粗筛质量参考。
 
@@ -147,7 +155,7 @@ English: [README.en.md](README.en.md)
 ### ① 用代码出片 —— 最贴近 Opus 5.5 的工作流
 
 <details>
-<summary><b>展开 73 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 78 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -231,12 +239,17 @@ English: [README.en.md](README.en.md)
 | [liangdabiao/whiteboard-teacher-video](https://github.com/liangdabiao/whiteboard-teacher-video) | Turn a script into a hand-drawn explainer video: code-drawn stroke by stroke, 5 styles, zero image-gen cost。<br>讲解稿变手绘讲解视频：代码逐笔绘出、文字逐字写出，五套风格，本地 Chrome 渲染零生图成本。 | rough.js + Chrome + edge-tts | 见原仓库 README | MIT | [B站演示](https://www.bilibili.com/video/BV1yYJ46PE5R/) |
 | [yanghui960/qianrong-video-skill](https://github.com/yanghui960/qianrong-video-skill) | Code-only book-breakdown video pipeline: narration, beat-sync, adversarial audit。<br>纯代码拆书/知识阐释短视频流水线：中文配音、节拍同步、对抗式审计。 | 代码绘制 + TTS + ffmpeg | `git clone https://github.com/yanghui960/qianrong-video-skill.git ~/.agents/skills/qianrong-video-skill` | MIT | [demo 60s](https://github.com/yanghui960/qianrong-video-skill/blob/main/demo/qianrong-creative-60s.mp4) |
 
+| [mileson/chaojifeng-video-design](https://github.com/mileson/chaojifeng-video-design) | Agent video methodology: storyline, storyboard, audio-visual rhythm and delivery acceptance, outputs finished video + editable project。<br>AI Agent 视频主线/分镜/声画节奏方法论与交付验收，交付成片与可编辑工程。 | 渲染栈未明示；音频能力提及 Whisper、ACE-Step、HTDemucs | `git clone https://github.com/mileson/chaojifeng-video-design.git` 后放到 Agent 的 skills 目录（示例：~/.codex/skills/chaojifeng-video-design） | MIT（样片 CC BY 4.0） | — |
+| [ItsssssJack/claude-video-2](https://github.com/ItsssssJack/claude-video-2) | Studio-grade motion graphics for Claude Code: 21-style gallery, optional Higgsfield AI clips。<br>Claude Code 做影棚级动态图形，21 种风格画廊，可选 Higgsfield AI 片段。 | HyperFrames + GSAP + ffmpeg | 复制文件夹到 `~/.claude/skills/`（AI clips 需 Higgsfield key 写 .env） | MIT | — |
+| [win4r/video-director](https://github.com/win4r/video-director) | Code-to-video director skill for Opus 5.5: short videos written as code, frame-rendered to MP4, with gated workflow and QA。<br>面向 Opus 5.5 的代码成片导演 skill：短视频写成代码，逐帧渲染 MP4，含门控流程与 QA。<br>🎬 样片：[演示](https://raw.githubusercontent.com/win4r/video-director/main/assets/demo.mp4) | HTML/Canvas/SVG/Three.js/GSAP 或 Remotion + ffmpeg | `git clone https://github.com/win4r/video-director.git` 后 `cp -R video-director/video-director ~/.claude/skills/` | MIT | **Yes** |
+| [Moessif/code-video-showcase](https://github.com/Moessif/code-video-showcase) | Pure-code beat-synced showcase films: frame-drawn visuals, synthesized score, FFmpeg mux, no generative models。<br>纯代码卡点风格展示片：画面逐帧绘制、配乐纯合成、FFmpeg 合成，不调用生成模型。 | HTML/Canvas/SVG/Three.js 逐帧 + Python 合成配乐 + ffmpeg | `git clone https://github.com/Moessif/code-video-showcase.git ~/.claude/skills/code-video-showcase` | MIT | **Yes** |
+| [sirioberati/YouTube-AI-Motion-Graphics](https://github.com/sirioberati/YouTube-AI-Motion-Graphics) | 74 animated explainer boards (charts, diagrams) synced to voiceover, with full prompts + Claude skill。<br>74 个动画讲解板（图表、示意图），与解说语音同步，含全套 prompt 与 Claude Skill。 | HTML + GSAP + Playwright 逐帧导出 + faster-whisper + ffmpeg | `git clone https://github.com/sirioberati/YouTube-AI-Motion-Graphics.git` 后按 START-HERE.md 做 setup check | MIT | — |
 </details>
 
 ### ② 产品片 / 成片编辑
 
 <details>
-<summary><b>展开 28 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 29 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -271,12 +284,13 @@ English: [README.en.md](README.en.md)
 | [dreamworker0/claude-video-edit-skill](https://github.com/dreamworker0/claude-video-edit-skill) | Reproduce a Premiere project or edit from raw footage with FFmpeg。<br>Premiere 项目复刻或从零剪辑：FFmpeg 渲染 + PSNR 画质对比（韩文文档）。 | FFmpeg + whisper filter | `git clone https://github.com/dreamworker0/claude-video-edit-skill ~/.claude/skills/premiere-ffmpeg-render` | MIT | — |
 | [atshalahmedkhan/SKILL_video](https://github.com/atshalahmedkhan/SKILL_video) | Turn interviews/podcasts into verified transcripts, highlights and story cut lists。<br>访谈/播客 → 可验证转录 + 高光时刻 + 故事剪辑清单（storycut）。 | faster-whisper + Python | 见原仓库 README（拷到 .claude/skills/storycut/） | MIT | — |
 
+| [actionow-ai/vvv](https://github.com/actionow-ai/vvv) | Reusable wedding-video templates + agent skill: build once, use across 25+ coding agents, incl. reference-video breakdown rebuilds。<br>可复用婚礼视频模板 + Agent Skill：一次构建，供 25+ 编程 Agent 使用，含参考视频拆解重建。 | Remotion + ffmpeg | `/plugin install vvv --marketplace actionow-ai/vvv`；或 `npx skills add actionow-ai/vvv` | MIT（媒体另见 MEDIA_LICENSE.md） | — |
 </details>
 
 ### ③ 看视频 / 把视频变成 skill（相邻方向）
 
 <details>
-<summary><b>展开 11 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 12 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -294,12 +308,13 @@ English: [README.en.md](README.en.md)
 
 | [robert-botto/skipwatch](https://github.com/robert-botto/skipwatch) | Turn a tutorial video link into an installed Agent Skill with timestamped steps。<br>教程视频链接变成带时间戳的已安装 skill：YouTube/X/抖音/录屏都行。 | yt-dlp + Claude Code plugin | `/plugin marketplace add robert-botto/skipwatch` | MIT | — |
 
+| [lovisdotio/motion2code](https://github.com/lovisdotio/motion2code) | Rebuild motion-design videos as clean editable code (inline SVG + GSAP), verified frame-by-frame against the source。<br>把动效视频研究后重建成干净、可编辑代码（内联 SVG + GSAP），逐帧对照源视频校验。 | 内联 SVG + GSAP + Python 渲染 + ffmpeg | `npx skills add lovisdotio/motion2code` | MIT | **Yes** |
 </details>
 
 ### ④ 调用外部视频模型（非 code-to-video，特意单列）
 
 <details>
-<summary><b>展开 13 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
+<summary><b>展开 14 条：用途 / 渲染栈 / 安装命令 / 许可证</b></summary>
 <br>
 
 | Skill | What it does | Render stack | Install | License | Opus 5.5? |
@@ -320,6 +335,7 @@ English: [README.en.md](README.en.md)
 
 > ④ 类靠托管模型生成像素，与 code-to-video 是两种范式，单列避免混淆。
 
+| [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | One photo + one line → full AI digital-human talk video: script, lip-synced host, captions, YouTuber-style packaging, fully agent-automated。<br>一张照片加一句话，生成带 AI 数字人的完整口播视频（文案、对口型主播、字幕、包装全自动化）。 | Renoise MCP（Grok Video 1.5 / Wan 3.0）+ Remotion + ffmpeg | `git clone https://github.com/andyhuo520/digital-human-koubo.git` 后 cp skills/ 到 `~/.claude/skills/`，接 Renoise MCP | MIT | — |
 </details>
 
 ## 怎么安装一个 skill
