@@ -147,6 +147,7 @@ English: [README.en.md](README.en.md)
 | ④ | [MichaelCao1/Videoprompt](https://github.com/MichaelCao1/Videoprompt) | Seedance 2.5 shot-memo 风格的视频提示词 skill | 2 | MIT | — |
 | ④ | [creatify-ai/creatify-ad-agent-skill](https://github.com/creatify-ai/creatify-ad-agent-skill) | Creatify Ad Agent MCP plugin：规划/生成/剪辑/发布视频广告 | — | MIT | — |
 | ④ | [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | 一张照片加一句话，生成带 AI 数字人的完整口播视频（文案、对口型主播、字幕、包装全自动化） | 1,558 | MIT | — |
+| ④ | [HoneyVid/skills](https://github.com/HoneyVid/skills) | HoneyVid 官方 skill：一张照片套热门视频模板，或用 Kling/Veo/Seedance 生成视频和图片（需付费积分） | — | MIT | — |
 
 > 「5.5?」判定口径（首批 2026-09-27、第二批 2026-09-29、第三批 2026-10-07 逐仓复核各仓库 README 与描述）：**✅** = 明确点名 Opus 5.5；**—** = 未明确点名（多为通用 Claude 技能，通用即兼容 5.5）。**⚠️** = 页面未见标准许可证标识，收录前待确认。**⭐** = 抓取时的 star 快照（首批/二批 2026-09-30、第三批 2026-10-07），仅供粗筛质量参考。
 
@@ -336,6 +337,7 @@ English: [README.en.md](README.en.md)
 > ④ 类靠托管模型生成像素，与 code-to-video 是两种范式，单列避免混淆。
 
 | [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | One photo + one line → full AI digital-human talk video: script, lip-synced host, captions, YouTuber-style packaging, fully agent-automated。<br>一张照片加一句话，生成带 AI 数字人的完整口播视频（文案、对口型主播、字幕、包装全自动化）。 | Renoise MCP（Grok Video 1.5 / Wan 3.0）+ Remotion + ffmpeg | `git clone https://github.com/andyhuo520/digital-human-koubo.git` 后 cp skills/ 到 `~/.claude/skills/`，接 Renoise MCP | MIT | — |
+| [HoneyVid/skills](https://github.com/HoneyVid/skills) | Official HoneyVid skills (5): put a person, pet or character from one photo into a trending video template, or generate videos and images with Kling / Veo / Seedance, batch jobs, MP4 download; needs a HoneyVid account and paid credits。<br>HoneyVid 官方 skill（5 个）：一张照片把人、宠物或角色套进热门视频模板，或用 Kling / Veo / Seedance 生成视频和图片、批量任务、下载 MP4；需 HoneyVid 账号与付费积分。 | HoneyVid CLI / 远程 MCP（外部模型） | `npx skills add HoneyVid/skills` | MIT | — |
 </details>
 
 ## 怎么安装一个 skill
