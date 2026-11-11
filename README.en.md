@@ -147,6 +147,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 | ④ | [MichaelCao1/Videoprompt](https://github.com/MichaelCao1/Videoprompt) | Seedance 2.5 shot-memo style video-prompt skill | 2 | MIT | — |
 | ④ | [creatify-ai/creatify-ad-agent-skill](https://github.com/creatify-ai/creatify-ad-agent-skill) | Creatify Ad Agent MCP plugin: plan / generate / edit / publish video ads | — | MIT | — |
 | ④ | [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | One photo + one line → full AI digital-human talk video: script, lip-synced host, captions, YouTuber-style packaging, fully agent-automated | 1,558 | MIT | — |
+| ④ | [HoneyVid/skills](https://github.com/HoneyVid/skills) | Official HoneyVid skills: one photo into a trending video template, or Kling/Veo/Seedance video and images (paid credits) | — | MIT | — |
 
 > "5.5?" criteria (first batch verified 2026-09-27, second batch 2026-09-29, third batch 2026-10-07, from each repo's README/description): **✅** = explicitly names Opus 5.5; **—** = not explicitly named (mostly generic Claude skills — generic means compatible with 5.5). **⚠️** = no standard SPDX license badge found; confirm before final inclusion. **⭐** = star snapshot at fetch time (batches 1–2 on 2026-09-30, batch 3 on 2026-10-07), for rough quality screening only.
 
@@ -336,6 +337,7 @@ Categories: **①** Code-to-video · **②** Product videos & footage editing ·
 > Category ④ calls hosted models to generate pixels — a different paradigm from code-to-video, listed separately to avoid confusion.
 
 | [andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo) | One photo + one line → full AI digital-human talk video: script, lip-synced host, captions, YouTuber-style packaging, fully agent-automated。<br>一张照片加一句话，生成带 AI 数字人的完整口播视频（文案、对口型主播、字幕、包装全自动化）。 | Renoise MCP（Grok Video 1.5 / Wan 3.0）+ Remotion + ffmpeg | `git clone https://github.com/andyhuo520/digital-human-koubo.git` 后 cp skills/ 到 `~/.claude/skills/`，接 Renoise MCP | MIT | — |
+| [HoneyVid/skills](https://github.com/HoneyVid/skills) | Official HoneyVid skills (5): put a person, pet or character from one photo into a trending video template, or generate videos and images with Kling / Veo / Seedance, batch jobs, MP4 download; needs a HoneyVid account and paid credits。<br>HoneyVid 官方 skill（5 个）：一张照片把人、宠物或角色套进热门视频模板，或用 Kling / Veo / Seedance 生成视频和图片、批量任务、下载 MP4；需 HoneyVid 账号与付费积分。 | HoneyVid CLI / 远程 MCP（外部模型） | `npx skills add HoneyVid/skills` | MIT | — |
 </details>
 
 ## Installing a skill
